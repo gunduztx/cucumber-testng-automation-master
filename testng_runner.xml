@@ -1,0 +1,14 @@
+          <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteCRM Regression Automation" verbose="2">
+
+	<test name="Automated tests">
+		<classes>
+			<class name ="com.app.runners.CukesRunner"></class>
+			<parameter name="excelfile" value="/Users/emin/Desktop/PressUser.xlsx">
+			
+			
+			</parameter>
+		</classes>
+	</test>
+
+</suite>
